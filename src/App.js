@@ -46,7 +46,7 @@ function SignIn() {
 	};
 
 	return (
-		<>
+		<div>
 			<button className="sign-in" onClick={signInWithGoogle}>
 				Sign in with Google
 			</button>
@@ -54,7 +54,7 @@ function SignIn() {
 				Do not violate the community guidelines or you will be banned
 				for life!
 			</p>
-		</>
+		</div>
 	);
 }
 
@@ -94,7 +94,7 @@ function ChatRoom() {
 	};
 
 	return (
-		<>
+		<div>
 			<main>
 				{messages &&
 					messages.map((msg) => (
@@ -115,7 +115,7 @@ function ChatRoom() {
 					🕊️
 				</button>
 			</form>
-		</>
+		</div>
 	);
 }
 
